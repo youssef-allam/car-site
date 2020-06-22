@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'comic sans ms';
+}
+body{
+    background-color:#000;
+    height: 3400px;
+    position: relative;
+    transition: .5s;
+	overflow-x: hidden;
+	
+   
+}
+
+#scrolling{
+    position: fixed;
+    right: 10px;
+    top: 90%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: 0;
+    background-color: #010307bd ;
+    cursor: pointer;
+    font-weight: bold;
+    display: none;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #010307bd;
+    border-bottom: .5px solid #FFF;
+    padding-top: 10px;
+    z-index: 3333;
+    color:#fff;
+    transition: .5s;
+}
+
+nav span{
+    
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+    text-shadow: 2px 2px 3px #000;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline;
+    color : #fff;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 5px;
+}ul li:hover{
+    border: 1px solid #fff;
+    text-shadow: 3px 3px 3px #555;
+}
+
+#fix{
+    clear: both;
+}
+
+main{
+    width: 100%;
+    height: 700px;
+    background-image:url("imgs/4k-wallpaper-automobile-automotive-branding-1149137.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+main p {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 25%;
+    font-size: 50px;
+    
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+}
+main button{
+    border: 1px solid #fff;
+    font-size: 21px;
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    color:#fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .6s;
+    outline: 0;
+    transform: scale(1);
+}
+main button:hover{
+    transform: scale(1.2);
+    background-color: #ffffffbd;
+    color: #000;
+}
+main button:active{
+    transform: scale(.2);
+}
+main video{
+    width: 100%;
+    
+}
+.sec1{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    overflow: hidden;
+	transition: 1s;
+	opacity:  1;
+	
+
+}
+.div-img{
+    float: left;
+    width : 35%;
+    height: 250px;
+    margin: 50px;
+    background-image: url("imgs/action-asphalt-auto-automobile-210019.jpg");
+    background-size: cover;
+    filter: grayscale(1);
+    background-position: center;
+    transition: .5s;
+}
+.sec1 .div-img:hover{
+    filter: grayscale(0);
+    background-position: 70% 70%;
+}
+.div-p{
+    float: right;
+    width: 50%;
+    height: 260px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5.5%;
+}
+ .btn1{
+    border: 1px solid #fff;
+    font-size: 15px;
+    padding: 5px;
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    color:#fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .6s;
+    outline: 0;
+} 
+ .btn1:hover {
+    background-color: #ffffffbd;
+    color: #000;
+}
+ .btn1:active {
+    transform: scale(.2);
+}
+.sec2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 190px;
+
+}
+.sec2 div{
+    position: relative;
+    width: 27%;
+    border: 1px solid #fff;
+    height: 370px;
+    font-size: 19px;
+    color:#fff;
+    padding: 30px;
+    filter: grayscale(1);
+    padding-top: 70px;
+    transition: .7s;
+	transform: scale(0);
+}.sec2 div:hover{
+    filter: grayscale(0);
+}
+.sec2 div:after{
+    content: '';
+    position: absolute;
+    width: 25%;
+    border-radius: 50%;
+    height: 91px;
+    top: -58px;
+    left: 115px;
+    border: 7px solid #000;
+    background-image: url("imgs/hone-icon-png-red-icon-dien-thoai-11562856165tsn1ot9cmt.png");
+    background-size: cover;
+}
+#sec3{
+    width: 100%;
+    height: 200px;
+    background-image: url("imgs/black-mercedes-benz-sports-car-interior-1104768.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 70px;
+}
+#sec3 p{
+    display: inline-block;
+    margin-top: 60px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+	transition: .5s;
+	
+}
+.now{
+    color:#ff0;
+}
+
+
+.divImg {
+	background-image: url(imgs/black-audi-a-series-parked-near-brown-brick-house-909907.jpg);
+	float: right;
+}.divP{
+	float: left;
+}
+.sec4{
+	width:500px;
+	height: 300px;
+	margin: 100px auto;
+	perspective: 800px;
+	
+}
+.prespective{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: 1.2s;
+}
+
+
+.front{
+	transform: translateZ(250px);
+	
+}.back {
+	transform: rotateY(180deg)  translateZ(250px);
+}.leftt{
+	transform: rotateY(-90deg)  translateX(-250px);
+	transform-origin: left;
+}.rightt{
+	transform: rotateY(90deg)  translateX(250px);
+	transform-origin: right;
+}.top{
+	transform: rotatex(-90deg)  translatey(-250px);
+	transform-origin: top;
+}.bottom{
+	transform: rotatex(90deg)  translatey(250px);
+	transform-origin: bottom;
+}
+.con{
+	border: 2px solid #eee;
+	background: #000;	
+	position: absolute;
+	width:500px;
+	height: 300px;
+	text-align: center;
+	
+
+}.con img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid #eee;
+	margin: 5px;
+}.con h2{
+	color: fff;
+}
+.con p{
+	color: #8e8e8e;
+	font-size: 15px
+}.sec4 button{
+	z-index: 222;
+	background: #000;
+	position: absolute;
+	font-size: 40px;
+	color: #fff;
+	top:50%;
+	margin-top: -20px;
+	cursor: pointer;
+	transition: .5s;
+	outline: 0;
+	border: 0;
+}.sec4 button:active{
+	transform: scale(.2);
+	
+} 
+.disabled{
+	color: 555;
+	pointer-events: none;
+	
+}
+#pre{
+	left:-300px;
+}
+#nex{
+	right:-300px;
+}
+
+.sec5{
+	width: 100%;
+	margin-top: 150px;
+	height: 600px;
+	position: relative;
+	font-family:fantasy ;
+	
+}.left{
+	width: 25%;
+	height: 100%;
+	float: left;
+	color: #eee;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 20px;
+	
+}.left p{
+	color: #929191;
+	line-height: 50px;
+	letter-spacing: 1.2px;
+	
+}.left h1{
+	font-size: 37px;
+	margin-bottom: 37px;
+	
+}
+.right{
+	width: 75%;
+	height: 100%;
+	float: right;
+	background-image:-webkit-linear-gradient(left, rgba(0,0,0,.5),rgba(100,100,100,.5) ),url(imgs/business-businessman-close-up-commerce-221026.jpg) ;
+	background-size: cover;
+	padding-left: 70px;
+	color: #fff;
+	text-transform: uppercase;
+}.right form{
+	width: 80%;
+	height: 70%;
+	margin-top: 50px;
+
+}form input,textarea{
+	background-color: transparent;
+	font-size: 17px;
+	color: #fff;
+	outline: 0;
+	border: 1px solid #eee;
+	margin: 10px;
+	height: 37px;
+}form input[type='text']{
+	width: 60%;
+	
+}
+.right form .sub {
+	width: 100%;
+}.right form .mesg{
+	height: 50px;
+	width: 100%;
+
+}form h1{
+	padding-left: 10px;
+}
+::placeholder{
+	color: #fff;
+	padding-left: 6px;
+}
+
+/*..............................*/
+#form2{
+    position: fixed;
+    top:40px;
+    left: 350px;
+    width: 50%;
+    height: 90vh;
+    background-color: #19202af2;
+    color: #fff;
+    text-align: center;
+      border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transition: .6s;
+    transform: scale(0);
+}
+
+#form  {
+    position: fixed;
+    top:100px;
+    left: 350px;
+    width: 50%;
+    height: 60vh;
+    background-color: #19202af2;
+    color: #fff;
+    text-align: center;
+      border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    transition: .6s;
+    transform: scale(0);
+    
+}
+#form img,#form2 img{
+    width: 50px;
+    float: left;
+    cursor: pointer;
+}
+#form #inside_form,#form2 #inside_form{
+width: 100%;
+    height: 100%;
+    color: #fff;
+    position: absolute;
+}
+
+#form  p ,#form2 p{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#form  form , #form2 form{
+    width: 100%;
+    height: 100%;
+}
+#form  input[type="text"] ,#form2 input[type="text"]{
+    margin: 30px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+#form  input[type="button"] , #form2 input[type="button"]{
+    background-color: #010307bd;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px; margin-top: 50px;
+    margin-left: 20px;
+}#form  input[type="button"]:active ,#form2 input[type="button"]:active{
+    transition: .9s;
+    transform: scale(.5);
+   
+}
+footer{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	color: #555;
+	background-color: #2929293b;
+	margin-top: 50px;
+}footer h2{
+	color: #999;
+	margin-top: 10px;
+}
+footer section{
+	width: 90%;
+	margin: 40px auto;
+	display: grid;
+	
+	grid-template-columns: 350px 350px 350px;
+	grid-template-rows: 200px ;
+	grid-column-gap: 100px;
+	text-align: left;
+	font-size: 15px;
+}
+footer section div{
+	padding:10px;
+}footer img{
+	margin: 5px;
+	cursor: pointer;
+}
+/*scrolling animation */
+.-transx{
+	transform: translateX(-1500px);
+	opacity: 0;
+}.transx{
+	transform: translateX(1500px);
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
